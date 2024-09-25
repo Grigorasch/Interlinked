@@ -1,8 +1,8 @@
 {
-  "id": "acode.plugin",
-  "name": "Plugin",
+  "id": "com.acode.interlinked",
+  "name": "Interlinked",
   "main": "dist/main.js",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "readme": "readme.md",
   "icon": "icon.png",
   "files": [],
