@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 const { spawn } = require('child_process');
+spawn('npm.cmd', ['--version'], { stdio: 'inherit', shell: true });
 const path = require('path');
 
 const webpack = spawn('npx.cmd', ['webpack', '--mode=development', '--watch'], { cwd: path.resolve(__dirname, '../') });
