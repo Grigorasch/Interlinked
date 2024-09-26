@@ -1,6 +1,6 @@
 {
   "name": "interlinked",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Template for Acode plugin",
   "main": "dist/main.js",
   "repository": "https://github.com/deadlyjack/acode-plugin.git",
