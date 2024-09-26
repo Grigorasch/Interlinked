@@ -1,8 +1,9 @@
 const { networkInterfaces } = require('os');
 
 module.exports = async (mode = 'dev') => {
-  const { WiFi, Ethernet } = getIp();
-  const [ip] = WiFi || Ethernet;
+  // const { WiFi, Ethernet } = getIp();
+  // const [ip] = WiFi || Ethernet;
+  const [ip] =getIp()['Беспроводная сеть'];
   const port = '5500';
   const src = `https://${ip || '10.0.0'}:${port}`;
   console.log('Server starting at: ', src);
